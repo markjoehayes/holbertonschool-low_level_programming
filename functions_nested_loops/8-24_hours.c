@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 8-24_hours.c - prints every second in 24 hr period
+ * jack_bauer - prints every second in 24 hr period
  *
  * Return: void
  */
