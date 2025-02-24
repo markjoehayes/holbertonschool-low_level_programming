@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_square - prints a square of hash based on size 
+ * print_square - prints a square of hash based on size
  * @size: size of square
  */
 
-void print_square(int size) 
+void print_square(int size)
 {
 	if (size > 0)
 	{
