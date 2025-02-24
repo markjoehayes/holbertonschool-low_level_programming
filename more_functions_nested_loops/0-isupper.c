@@ -2,7 +2,7 @@
 
 /**
  * _isupper: checks for uppercase character
- * @ch: character be tested
+ * @c: character be tested
  * Return: 1 for uppercase, 0 otherwise
  */
 
