@@ -16,7 +16,7 @@ void more_numbers(void)
 		 }
 		 for (k = '0'; k <= '4'; k++)
 		 {
-			_putchar('1');
+			_putchar('1'); 
 		 	_putchar(k);
 		 }
 		_putchar('\n');
