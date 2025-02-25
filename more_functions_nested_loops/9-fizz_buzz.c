@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+/**
+ * main - print 1 -100 replacing multiples of 3 with 
+ *        fizz and multiples of 5 with buzz, both
+ *        with fizzbuxx
+ */
+
 int main(void)
 {
 	int i;
