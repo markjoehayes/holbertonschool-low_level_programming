@@ -4,6 +4,7 @@
  * main - print 1 -100 replacing multiples of 3 with
  *        fizz and multiples of 5 with buzz, both
  *        with fizzbuxx
+ * Return: 0 for success
  */
 
 int main(void)
