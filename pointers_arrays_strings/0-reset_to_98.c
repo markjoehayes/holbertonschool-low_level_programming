@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - checks for uppercase character
- * @*n: pointer variable
+ * @n: pointer variable
  */
 
 void reset_to_98(int *n)
