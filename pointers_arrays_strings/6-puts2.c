@@ -6,9 +6,9 @@
  */
 
 void puts2(char *str)
-{	
+{
 	int counter;
-	
+
 	for (counter = 0; ;counter++)
 	{
 		if (str[counter] == '\0')
