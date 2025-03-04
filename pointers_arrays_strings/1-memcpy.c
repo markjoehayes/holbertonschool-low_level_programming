@@ -6,7 +6,7 @@
  * @src: This is my input string
  * @n: This is the number bytes to copy
  *
- * Return: dest 
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
