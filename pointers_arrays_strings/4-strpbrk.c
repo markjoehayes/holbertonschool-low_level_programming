@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * strpbrk - locates the first occurance in the string s of any bytes in the string accept
+ * @s: string to search
+ * @accept: substring
+ * Return: substring
+ */
+
 char *_strpbrk(char *s, char *accept)
 {
 	char *c = accept;
