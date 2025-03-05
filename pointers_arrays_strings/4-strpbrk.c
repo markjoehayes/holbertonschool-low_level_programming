@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strpbrk - locates the string s of
+ * _strpbrk - locates the string s of
  * @s: string to search
  * @accept: substring
  * Return: substring
