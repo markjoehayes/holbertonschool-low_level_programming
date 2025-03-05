@@ -2,7 +2,6 @@
 
 /**
  * strpbrk - locates the string s of
- *            any bytes in the string accept
  * @s: string to search
  * @accept: substring
  * Return: substring
