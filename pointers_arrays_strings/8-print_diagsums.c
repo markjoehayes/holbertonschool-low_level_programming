@@ -2,13 +2,14 @@
 #include "main.h"
 
 /**
- * print_diagsums - prints the sum of two diagonals of a square matrix of integers
+ * print_diagsums - prints the sum of two diagonals
+ *                   of a square matrix of integers
  * @a:
  * @size: size of array
  */
 
- void print_diagsums(int *a, int size)
- {
+void print_diagsums(int *a, int size)
+{
 	int n1 = 0;
 	int n2 = 0;
 	int i = 0;
@@ -23,4 +24,4 @@
 	printf("%d", n2);
 	printf("\n");
 
- }
+}
