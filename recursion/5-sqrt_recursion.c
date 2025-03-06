@@ -8,13 +8,13 @@
 
 int _sqrt_recursion(int n)
 {
-	int sqrt; 
+	int sqrt;
 
 	if (n < 0)
 		return (-1);
 	else if (n <= 1 && n >= 0)
 		return (n);
-	
+
 	if (!(n % 2))
 	{
 		if (n / 2 == 2 || n == 2)
