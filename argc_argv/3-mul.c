@@ -4,8 +4,6 @@
 
 /**
  * main - multiply two numbers from cli
- * @x: number to multiply
- * @y: number to multilpy
  * @argc: arg count
  * @argv: numbers
  * Return: ) for sucess
