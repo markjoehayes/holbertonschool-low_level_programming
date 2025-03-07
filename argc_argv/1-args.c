@@ -3,8 +3,8 @@
 
 /**
  * main - print out number of cli args
- * @argc - number of argumenyts
- * @argv - arguments
+ * @argc: number of argumenyts
+ * @argv: arguments
  * Return: 0 for sucess
  */
 
