@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * main - prints program name
+ *
+ * Return: ) for success
+ */
+
 int main(int argc, char *argv[])
 {
 	if (argc > 0)
