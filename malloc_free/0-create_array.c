@@ -10,16 +10,16 @@
  * Return: pointer to array or NULL if it fails
  */
 
-char *create_array(unsigned int size, char c) 
+char *create_array(unsigned int size, char c)
 {
 	char *a;
 	unsigned int i = 0;
 
 	a = malloc(size * sizeof(c));
+	if (a == NULL)
+		return (NULL);
 	while (i < size)
 	{
-		if (a == NULL)
-			return (NULL);
 		a[i] = c;
 		i++;
 	}
