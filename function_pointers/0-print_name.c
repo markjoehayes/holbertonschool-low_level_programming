@@ -1,6 +1,7 @@
 #include "function_pointers.h"
-#ifndef function_pointers.h
-#define function_pointers.h
+#ifndef function_pointers
+#define function_pointers
+
 /**
  * print_name - prints a name
  * @name: string to print
@@ -13,4 +14,4 @@ void print_name(char *name, void (*f)(char *))
 	f(name);
 }
 
-#endif /*function_pointers.h*\
+#endif /*function_pointers.h*/
