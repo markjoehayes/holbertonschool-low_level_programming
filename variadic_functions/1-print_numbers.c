@@ -2,6 +2,11 @@
 #include<stdarg.h>
 #include "variadic_functions.h"
 
+/**
+ * print_numbers - prints numbers with seperator
+ * @seperator: field seperator
+ */
+
 void print_numbers(const char *seperator, const unsigned int n, ...)
 {
 	unsigned int i;
