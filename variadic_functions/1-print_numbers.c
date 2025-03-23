@@ -5,6 +5,7 @@
 /**
  * print_numbers - prints numbers with seperator
  * @seperator: field seperator
+ * @n: number of numbers
  */
 
 void print_numbers(const char *seperator, const unsigned int n, ...)
