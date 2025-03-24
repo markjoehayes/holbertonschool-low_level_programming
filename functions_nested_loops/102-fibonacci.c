@@ -10,12 +10,12 @@
 int main(void)
 {
 	int i;
-	long int t1 = 1, t2 = 1;
+	long int t1 = 1, t2 = 2;
 	long int nextTerm = t1 + t2;
 	
 	printf("%ld, %ld, ", t1, t2);
 
-	for (i=3; i <= 50; i++)
+	for (i=3; i <= 49; i++)
 	{
 		printf("%ld, ", nextTerm);
 		t1 = t2;
