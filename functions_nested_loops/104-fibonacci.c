@@ -1,28 +1,27 @@
 #include<stdio.h>
 
 /**
- * main - program to sum the even fibonacci
+ * main - program to print the first 50 fibonacci numbers
  * Return: 0 for success
  */
 
-#define MAX 4000000
 
 int main(void)
 {
-	long int sum = 0;
+	int i;
 	long int t1 = 1, t2 = 2;
 	long int nextTerm = t1 + t2;
 
+	printf("%ld, %ld, ", t1, t2);
 
-	while (sum <= MAX)
+	for (i = 3; i <= 97; i++)
 	{
+		printf("%ld, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
-		if (nextTerm % 2 == 0)
-			sum += nextTerm;
 	}
-	printf("%ld\n", sum);
+	printf("%ld\n", nextTerm);
 
 	return (0);
 }
