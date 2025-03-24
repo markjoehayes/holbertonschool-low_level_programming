@@ -16,10 +16,10 @@ int main(void)
 
 	for (i = 3; i <= 97; i++)
 	{
-		printf("%lu, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
+		printf("%lu, ", nextTerm);
 	}
 	printf("%lu\n", nextTerm);
 
