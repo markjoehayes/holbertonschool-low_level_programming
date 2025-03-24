@@ -15,7 +15,7 @@ int main(void)
 
 	printf("%ld, %ld, ", t1, t2);
 
-	for (i=3; i <= 49; i++)
+	for (i = 3; i <= 49; i++)
 	{
 		printf("%ld, ", nextTerm);
 		t1 = t2;
