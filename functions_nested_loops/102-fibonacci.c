@@ -2,10 +2,9 @@
 
 /**
  * main - program to print the first 50 fibonacci numbers
- * @t1: 1st number
- * @t2: second number
- * @nextTerm: next number in sequence
+ * Return: 0 for success
  */
+
 
 int main(void)
 {
