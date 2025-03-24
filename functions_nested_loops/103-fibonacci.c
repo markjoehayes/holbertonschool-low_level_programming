@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - program to sum the even fibonacci 
+ * main - program to sum the even fibonacci
  * Return: 0 for success
  */
 
@@ -15,16 +15,13 @@ int main(void)
 	long int nextTerm = t1 + t2;
 
 
-	while (nextTerm <= MAX)
+	while (sum <= MAX)
 	{
-		for (i = 3; i <= 49; i++)
-		{
-			if (nextTerm % 2 == 0)
-				sum += nextTerm;
-			t1 = t2;
-			t2 = nextTerm;
-			nextTerm = t1 + t2;
-		}
+		if (nextTerm % 2 == 0)
+			sum += nextTerm;
+		t1 = t2;
+		t2 = nextTerm;
+		nextTerm = t1 + t2;
 	}
 	printf("%ld\n", sum);
 
