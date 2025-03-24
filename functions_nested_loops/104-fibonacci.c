@@ -9,19 +9,19 @@
 int main(void)
 {
 	int i;
-	long int t1 = 1, t2 = 2;
-	long int nextTerm = t1 + t2;
+	unsigned long int t1 = 1, t2 = 2;
+	unsigned long int nextTerm = t1 + t2;
 
-	printf("%ld, %ld, ", t1, t2);
+	printf("%lu, %lu, ", t1, t2);
 
 	for (i = 3; i <= 97; i++)
 	{
-		printf("%ld, ", nextTerm);
+		printf("%lu, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
 	}
-	printf("%ld\n", nextTerm);
+	printf("%lu\n", nextTerm);
 
 	return (0);
 }
