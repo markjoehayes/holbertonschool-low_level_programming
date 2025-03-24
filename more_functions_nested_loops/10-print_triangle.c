@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - function to print a triangle of hashes 
+ * print_triangle - function to print a triangle of hashes
  * @size: integer to represent size of triangle
  */
 
