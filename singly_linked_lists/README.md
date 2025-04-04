@@ -1,2 +1,0 @@
-practice singly-linked lists
-	
