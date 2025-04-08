@@ -2,7 +2,7 @@
 
 /**
  * main - main function
- * @n: intiger to print 
+ * @n: intiger to print
  */
 
 void print_number(int n)
