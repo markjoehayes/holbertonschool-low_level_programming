@@ -2,16 +2,15 @@
 #include "main.h"
 
 /**
- * print_array - prints an array of integers
+ * print_array - prints n elemnts from array 
  * @n: number of elements
  * @a: array
  */
 
 void print_array(int *a, int n)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
 	while (i < n)
 	{
 		if (i != n - 1)
