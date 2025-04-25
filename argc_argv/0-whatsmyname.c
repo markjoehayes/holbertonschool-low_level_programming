@@ -5,7 +5,7 @@
  * main - prints program name
  * @argc: number of arguments
  * @argv: commandline args
- * Return: ) for success
+ * Return: 0 for success
  */
 
 int main(int argc, char *argv[])
